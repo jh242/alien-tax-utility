@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_XIMakHy5EeiCsqLhIBZvRg" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_XV4RQHy5EeiCsqLhIBZvRg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_egkWUHy5EeiCsqLhIBZvRg" name="Taxpayer"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nk3BUHy5EeiCsqLhIBZvRg" name="File Taxes"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_saRREHy5EeiCsqLhIBZvRg" client="_egkWUHy5EeiCsqLhIBZvRg" supplier="_nk3BUHy5EeiCsqLhIBZvRg"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vjg58Hy5EeiCsqLhIBZvRg" name="Read Tax Information">
+    <include xmi:type="uml:Include" xmi:id="_sDViUHy6EeiCsqLhIBZvRg" addition="_6Q4bkHy5EeiCsqLhIBZvRg"/>
+    <include xmi:type="uml:Include" xmi:id="_1vk-IHy6EeiCsqLhIBZvRg" addition="_xBpPYHy6EeiCsqLhIBZvRg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_2rd0EHy5EeiCsqLhIBZvRg" client="_nk3BUHy5EeiCsqLhIBZvRg" supplier="_vjg58Hy5EeiCsqLhIBZvRg"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6Q4bkHy5EeiCsqLhIBZvRg" name="Validate Tax Information"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xBpPYHy6EeiCsqLhIBZvRg" name="Read Spreadsheets"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CweooHy7EeiCsqLhIBZvRg" name="Fill Forms">
+    <include xmi:type="uml:Include" xmi:id="_m67ooHy7EeiCsqLhIBZvRg" addition="_XmB7MHy7EeiCsqLhIBZvRg"/>
+    <include xmi:type="uml:Include" xmi:id="_uYLdUHy7EeiCsqLhIBZvRg" addition="_rw21wHy7EeiCsqLhIBZvRg"/>
+    <include xmi:type="uml:Include" xmi:id="_QN1wMHy8EeiCsqLhIBZvRg" addition="_HKL-YHy8EeiCsqLhIBZvRg"/>
+    <include xmi:type="uml:Include" xmi:id="_TD3iIHy8EeiCsqLhIBZvRg" addition="_G_b8YHy7EeiCsqLhIBZvRg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_GOjSAHy7EeiCsqLhIBZvRg" client="_nk3BUHy5EeiCsqLhIBZvRg" supplier="_CweooHy7EeiCsqLhIBZvRg"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_G_b8YHy7EeiCsqLhIBZvRg" name="Do Calculations"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_XmB7MHy7EeiCsqLhIBZvRg" name="Get Form Template"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rw21wHy7EeiCsqLhIBZvRg" name="Fill Template"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ytt6MHy7EeiCsqLhIBZvRg" name="Authentication">
+    <include xmi:type="uml:Include" xmi:id="_4xGY8Hy7EeiCsqLhIBZvRg" addition="_2AfSgHy7EeiCsqLhIBZvRg"/>
+    <include xmi:type="uml:Include" xmi:id="_5Y9DIHy7EeiCsqLhIBZvRg" addition="_2r9RYHy7EeiCsqLhIBZvRg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_1Y8KUHy7EeiCsqLhIBZvRg" client="_vjg58Hy5EeiCsqLhIBZvRg" supplier="_ytt6MHy7EeiCsqLhIBZvRg"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2AfSgHy7EeiCsqLhIBZvRg" name="Login"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2r9RYHy7EeiCsqLhIBZvRg" name="Logout"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CBTZAHy8EeiCsqLhIBZvRg" client="_CweooHy7EeiCsqLhIBZvRg" supplier="_ytt6MHy7EeiCsqLhIBZvRg"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HKL-YHy8EeiCsqLhIBZvRg" name="Export Forms"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_xz79EHy8EeiCsqLhIBZvRg" name="ca.nealth.tax.1040nr.util">
+    <packagedElement xmi:type="uml:Class" xmi:id="_npuy4Hy8EeiCsqLhIBZvRg" name="TaxFiler">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_CZ97MHy9EeiCsqLhIBZvRg" name="file"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_wnjiIHy_EeiCsqLhIBZvRg" name="getInstance"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_VQVHwHy-EeiCsqLhIBZvRg" client="_npuy4Hy8EeiCsqLhIBZvRg" supplier="_GSVT4Hy9EeiCsqLhIBZvRg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_cD-qsICAEeiUB_2WiDkiIA" client="_npuy4Hy8EeiCsqLhIBZvRg" supplier="_2dPS4IB_EeiUB_2WiDkiIA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_37zTMHy8EeiCsqLhIBZvRg" name="ca.nealth.tax.1040nr.datasource">
+    <packagedElement xmi:type="uml:Class" xmi:id="_GSVT4Hy9EeiCsqLhIBZvRg" name="DataSourceFactory">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_x0N0cHy9EeiCsqLhIBZvRg" name="getDataSource"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_LhKwQHy9EeiCsqLhIBZvRg" name="DataSource">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_UuZ74Hy9EeiCsqLhIBZvRg" name="validate"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_auGNcHy9EeiCsqLhIBZvRg" name="login"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_eoWcgHy9EeiCsqLhIBZvRg" name="logout"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_i4gqIHy9EeiCsqLhIBZvRg" name="read"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mCw_oHy9EeiCsqLhIBZvRg" name="GoogleDrive">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_1PuckHy-EeiCsqLhIBZvRg" client="_mCw_oHy9EeiCsqLhIBZvRg" supplier="_LhKwQHy9EeiCsqLhIBZvRg" contract="_LhKwQHy9EeiCsqLhIBZvRg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_QvPiMHy-EeiCsqLhIBZvRg" client="_GSVT4Hy9EeiCsqLhIBZvRg" supplier="_LhKwQHy9EeiCsqLhIBZvRg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_yuaQsIB_EeiUB_2WiDkiIA" name="ca.nealth.tax.1040nr.pdfhandler">
+    <packagedElement xmi:type="uml:Class" xmi:id="_2dPS4IB_EeiUB_2WiDkiIA" name="GetTemplate">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_CH7YYICAEeiUB_2WiDkiIA" name="download"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_LykRsICAEeiUB_2WiDkiIA" name="checkYear"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2ZSKgICAEeiUB_2WiDkiIA" name="CalculationEngine">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_i184UICBEeiUB_2WiDkiIA" name="netIncome"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_fT4fwICBEeiUB_2WiDkiIA" client="_2ZSKgICAEeiUB_2WiDkiIA" supplier="_GSVT4Hy9EeiCsqLhIBZvRg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uT47QICBEeiUB_2WiDkiIA" name="ExportFile">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_yVfvgICBEeiUB_2WiDkiIA" name="checkFolder"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_zq41IICBEeiUB_2WiDkiIA" name="createFolder"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_0xl-gICBEeiUB_2WiDkiIA" name="exportPDF"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_2_63QICBEeiUB_2WiDkiIA" client="_uT47QICBEeiUB_2WiDkiIA" supplier="_LhKwQHy9EeiCsqLhIBZvRg"/>
+  </packagedElement>
+</uml:Model>
