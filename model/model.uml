@@ -36,9 +36,11 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_npuy4Hy8EeiCsqLhIBZvRg" name="TaxFiler">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_CZ97MHy9EeiCsqLhIBZvRg" name="file"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_wnjiIHy_EeiCsqLhIBZvRg" name="getInstance"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_iAOk0IF_EeiGLeihz2sOkA" name="readProperties"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_VQVHwHy-EeiCsqLhIBZvRg" client="_npuy4Hy8EeiCsqLhIBZvRg" supplier="_GSVT4Hy9EeiCsqLhIBZvRg"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_cD-qsICAEeiUB_2WiDkiIA" client="_npuy4Hy8EeiCsqLhIBZvRg" supplier="_2dPS4IB_EeiUB_2WiDkiIA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_Op1tAIGBEeiGLeihz2sOkA" client="_npuy4Hy8EeiCsqLhIBZvRg" supplier="_N58ssIF3EeiGLeihz2sOkA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_QOJYYIGBEeiGLeihz2sOkA" client="_npuy4Hy8EeiCsqLhIBZvRg" supplier="_Xv_rIIF_EeiGLeihz2sOkA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_37zTMHy8EeiCsqLhIBZvRg" name="ca.nealth.tax.1040nr.datasource">
     <packagedElement xmi:type="uml:Class" xmi:id="_GSVT4Hy9EeiCsqLhIBZvRg" name="DataSourceFactory">
@@ -54,21 +56,42 @@
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_1PuckHy-EeiCsqLhIBZvRg" client="_mCw_oHy9EeiCsqLhIBZvRg" supplier="_LhKwQHy9EeiCsqLhIBZvRg" contract="_LhKwQHy9EeiCsqLhIBZvRg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_QvPiMHy-EeiCsqLhIBZvRg" client="_GSVT4Hy9EeiCsqLhIBZvRg" supplier="_LhKwQHy9EeiCsqLhIBZvRg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_YKjkYIF4EeiGLeihz2sOkA" client="_mCw_oHy9EeiCsqLhIBZvRg" supplier="_LIpNQIF4EeiGLeihz2sOkA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_yuaQsIB_EeiUB_2WiDkiIA" name="ca.nealth.tax.1040nr.pdfhandler">
-    <packagedElement xmi:type="uml:Class" xmi:id="_2dPS4IB_EeiUB_2WiDkiIA" name="GetTemplate">
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_CH7YYICAEeiUB_2WiDkiIA" name="download"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_LykRsICAEeiUB_2WiDkiIA" name="checkYear"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_yuaQsIB_EeiUB_2WiDkiIA" name="ca.nealth.tax.1040nr.form">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_N58ssIF3EeiGLeihz2sOkA" name="FormHandler">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_TlCnQIF3EeiGLeihz2sOkA" name="getTemplate"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_U4pkMIF3EeiGLeihz2sOkA" name="validate"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_VzD-AIF3EeiGLeihz2sOkA" name="fillForm"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_t0J_gIF3EeiGLeihz2sOkA" name="calculate"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_2ZSKgICAEeiUB_2WiDkiIA" name="CalculationEngine">
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_i184UICBEeiUB_2WiDkiIA" name="netIncome"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YMtV8IF3EeiGLeihz2sOkA" name="1040NR">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_f1ByMIF3EeiGLeihz2sOkA" client="_YMtV8IF3EeiGLeihz2sOkA" supplier="_N58ssIF3EeiGLeihz2sOkA" contract="_N58ssIF3EeiGLeihz2sOkA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_fT4fwICBEeiUB_2WiDkiIA" client="_2ZSKgICAEeiUB_2WiDkiIA" supplier="_GSVT4Hy9EeiCsqLhIBZvRg"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_uT47QICBEeiUB_2WiDkiIA" name="ExportFile">
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_yVfvgICBEeiUB_2WiDkiIA" name="checkFolder"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_zq41IICBEeiUB_2WiDkiIA" name="createFolder"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_0xl-gICBEeiUB_2WiDkiIA" name="exportPDF"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Zo6OMIF3EeiGLeihz2sOkA" name="ScheduleE">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gd7lQIF3EeiGLeihz2sOkA" client="_Zo6OMIF3EeiGLeihz2sOkA" supplier="_N58ssIF3EeiGLeihz2sOkA" contract="_N58ssIF3EeiGLeihz2sOkA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_2_63QICBEeiUB_2WiDkiIA" client="_uT47QICBEeiUB_2WiDkiIA" supplier="_LhKwQHy9EeiCsqLhIBZvRg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bPaR8IF3EeiGLeihz2sOkA" name="ScheduleD">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_hLEYEIF3EeiGLeihz2sOkA" client="_bPaR8IF3EeiGLeihz2sOkA" supplier="_N58ssIF3EeiGLeihz2sOkA" contract="_N58ssIF3EeiGLeihz2sOkA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LIpNQIF4EeiGLeihz2sOkA" name="GoogleDriveAuthen">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Uh-UIIF4EeiGLeihz2sOkA" name="login"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VDiJEIF4EeiGLeihz2sOkA" name="logout"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Xv_rIIF_EeiGLeihz2sOkA" name="ca.nealth.tax.1040nr.datatarget">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_gMCqYIF_EeiGLeihz2sOkA" name="DataTarget">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_k6U-cIF_EeiGLeihz2sOkA" name="login"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_mEvjIIF_EeiGLeihz2sOkA" name="write"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_moxdQIF_EeiGLeihz2sOkA" name="logout"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pJYY0IF_EeiGLeihz2sOkA" name="DataTargetFactory">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_xl7uYIF_EeiGLeihz2sOkA" name="getDataTarget"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_1NBJ0IF_EeiGLeihz2sOkA" client="_pJYY0IF_EeiGLeihz2sOkA" supplier="_gMCqYIF_EeiGLeihz2sOkA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4L7yAIF_EeiGLeihz2sOkA" name="LocalDisk">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_7LU7UIF_EeiGLeihz2sOkA" client="_4L7yAIF_EeiGLeihz2sOkA" supplier="_gMCqYIF_EeiGLeihz2sOkA" contract="_gMCqYIF_EeiGLeihz2sOkA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_-6pFsIF_EeiGLeihz2sOkA" client="_4L7yAIF_EeiGLeihz2sOkA" supplier="_N58ssIF3EeiGLeihz2sOkA"/>
   </packagedElement>
 </uml:Model>
