@@ -1,9 +1,14 @@
 package ca.nealth.tax.datasource;
 
-public interface DataSource {
-	public Object read();
+
+public abstract class DataSource {
+	public abstract TaxInfo read(int taxPayer);
 	
-	public boolean login();
+	public boolean login() {
+		return false;
+	}
 	
-	public boolean logout();
+	public boolean logout() {
+		return false;
+	}
 }

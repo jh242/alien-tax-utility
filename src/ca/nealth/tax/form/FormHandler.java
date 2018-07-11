@@ -1,9 +1,14 @@
 package ca.nealth.tax.form;
 
+import org.apache.pdfbox.pdmodel.PDDocument;
+
+import ca.nealth.tax.datasource.TaxInfo;
+
 public interface FormHandler {
-	public void getTemplate();
+	public PDDocument getTemplate();
 	
 	public boolean validate();
 	
-	public Object calculate();
+	public FormInfo calculate(TaxInfo ti);
+
 }
