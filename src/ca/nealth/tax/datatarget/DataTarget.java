@@ -1,9 +1,13 @@
 package ca.nealth.tax.datatarget;
 
-public interface DataTarget {
-	public void write();
+public abstract class DataTarget {
+	public abstract void write();
 	
-	public boolean login();
+	public boolean login() {
+		return false;
+	}
 	
-	public boolean logout();
+	public boolean logout() {
+		return false;
+	}
 }

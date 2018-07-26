@@ -1,0 +1,1709 @@
+0 0 0 RG
+0 i 
+/RelativeColorimetric ri
+q 1 0 0 1 35.75 756 cm
+0 0 m
+511.7 0 l
+S
+Q
+BT
+/Content <</MCID 0 >>BDC 
+0 0 0 rg
+1 i 
+/T1_0 1 Tf
+7 0 0 7 36 760.442 Tm
+(Form 1040NR \(2017\))Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 546.95 756 cm
+0 0 m
+29.3 0 l
+S
+Q
+BT
+/Content <</MCID 1 >>BDC 
+1 i 
+/T1_0 1 Tf
+7 0 0 7 552.422 759.86 Tm
+(Page )Tj
+/T1_1 1 Tf
+10 0 0 10 570.44 759.86 Tm
+(5 )Tj
+EMC 
+ET
+0 i 0.75 w 
+q 1 0 0 1 35.75 731.999 cm
+0 0 m
+540.5 0 l
+S
+Q
+BT
+/Content <</MCID 2 >>BDC 
+1 i 
+/T1_1 1 Tf
+10 0 0 10 190.552 744.859 Tm
+(Schedule OI\227Other Information )Tj
+/T1_0 1 Tf
+(\(see instructions\))Tj
+/T1_1 1 Tf
+( )Tj
+/T1_0 1 Tf
+8 0 0 8 269.113 735.887 Tm
+(Answer all questions)Tj
+EMC 
+/Content <</MCID 3 >>BDC 
+/T1_1 1 Tf
+8.5 0 0 8.5 40.289 724.181 Tm
+(A )Tj
+EMC 
+ET
+0 i 0.5 w [2 1]0 d 
+q 1 0 0 1 360.952 720 cm
+0 0 m
+215.298 0 l
+S
+Q
+BT
+/Caption <</MCID 4 >>BDC 
+1 i 
+/T1_0 1 Tf
+8.5 0 0 8.5 57.6 723.431 Tm
+(Of what country or countries were you a citizen or national during the t\ax year?)Tj
+EMC 
+/Content <</MCID 5 >>BDC 
+/T1_1 1 Tf
+-2.046 -2.735 Td
+(B )Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 360.952 695.999 cm
+0 0 m
+215.298 0 l
+S
+Q
+BT
+/Caption <</MCID 6 >>BDC 
+1 i 
+/T1_0 1 Tf
+8.5 0 0 8.5 57.6 699.43 Tm
+(In what country did you claim residence for tax purposes during the tax \year?)Tj
+EMC 
+/Content <</MCID 7 >>BDC 
+/T1_1 1 Tf
+-2.065 -2.941 Td
+(C )Tj
+EMC 
+/Content <</MCID 8 >>BDC 
+/T1_0 1 Tf
+2.065 0 Td
+(Have you ever applied to be a green card holder \(lawful permanent resid\ent\) of the United States? )Tj
+44.047 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i []0 d 
+504 673.998 8 8 re
+S
+BT
+/Caption <</MCID 9 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.095 674.429 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540 673.998 8 8 re
+S
+BT
+/Caption <</MCID 10 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.086 674.429 Tm
+(No)Tj
+EMC 
+/Content <</MCID 11 >>BDC 
+-60.239 -2.823 Td
+(D )Tj
+EMC 
+/Content <</MCID 12 >>BDC 
+/T1_0 1 Tf
+2.065 0 Td
+(Were you ever:)Tj
+EMC 
+/Content <</MCID 13 >>BDC 
+/T1_1 1 Tf
+0 -1.412 TD
+(1. )Tj
+/T1_0 1 Tf
+(A U.S. citizen? )Tj
+8.753 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i 
+504 637.998 8 8 re
+S
+BT
+/Caption <</MCID 14 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.095 638.429 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540 637.998 8 8 re
+S
+BT
+/Caption <</MCID 15 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.086 638.429 Tm
+(No)Tj
+EMC 
+/Content <</MCID 16 >>BDC 
+-58.175 -1.412 Td
+(2. )Tj
+/T1_0 1 Tf
+(A green card holder \(lawful permanent resident\) of the United States? \)Tj
+32.753 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i 
+504 625.999 8 8 re
+S
+BT
+/Caption <</MCID 17 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.095 626.43 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540 625.999 8 8 re
+S
+BT
+/Caption <</MCID 18 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.086 626.43 Tm
+(No)Tj
+EMC 
+/Content <</MCID 19 >>BDC 
+/T1_0 1 Tf
+-58.175 -1.412 Td
+(If you answer \223Yes\224 to \(1\) or \(2\), see Pub. 519, chapter 4, fo\r expatriation rules that apply to you.)Tj
+EMC 
+/Content <</MCID 20 >>BDC 
+/T1_1 1 Tf
+-2.018 -2.742 Td
+(E )Tj
+EMC 
+/Content <</MCID 21 >>BDC 
+/T1_0 1 Tf
+2.018 0 Td
+(If )Tj
+0.932 0 Td
+(you )Tj
+2.007 0 Td
+(had )Tj
+2.063 0 Td
+(a )Tj
+0.914 0 Td
+(visa )Tj
+2.136 0 Td
+(on )Tj
+1.507 0 Td
+(the )Tj
+1.785 0 Td
+(last )Tj
+1.951 0 Td
+(day )Tj
+2.007 0 Td
+(of )Tj
+1.247 0 Td
+(the )Tj
+1.785 0 Td
+(tax )Tj
+1.747 0 Td
+(year, )Tj
+2.562 0 Td
+(enter )Tj
+2.655 0 Td
+(your )Tj
+2.34 0 Td
+(visa )Tj
+2.136 0 Td
+(type. )Tj
+2.6 0 Td
+(If )Tj
+0.932 0 Td
+(you )Tj
+2.007 0 Td
+(did )Tj
+1.785 0 Td
+(not )Tj
+1.822 0 Td
+(have )Tj
+2.507 0 Td
+(a )Tj
+0.914 0 Td
+(visa, )Tj
+2.414 0 Td
+(enter )Tj
+2.655 0 Td
+(your )Tj
+2.34 0 Td
+(U.S. )Tj
+-49.745 -1.294 Td
+(immigration status on the last day of the tax year.)Tj
+EMC 
+ET
+0 i [2 1]0 d 
+q 1 0 0 1 244.55 576 cm
+0 0 m
+252.5 0 l
+S
+Q
+BT
+/Content <</MCID 22 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 40.68 554.43 Tm
+(F )Tj
+EMC 
+/Content <</MCID 23 >>BDC 
+/T1_0 1 Tf
+1.991 0 Td
+(Have you ever changed your visa type \(nonimmigrant status\) or U.S. imm\igration status? )Tj
+39.812 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i []0 d 
+504 553.999 8 8 re
+S
+BT
+/Caption <</MCID 24 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.095 554.43 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540 553.999 8 8 re
+S
+BT
+/Caption <</MCID 25 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.086 554.43 Tm
+(No)Tj
+EMC 
+ET
+0 i [2 1]0 d 
+q 1 0 0 1 327.35 540 cm
+0 0 m
+169.7 0 l
+S
+Q
+BT
+/Caption <</MCID 26 >>BDC 
+1 i 
+/T1_0 1 Tf
+8.5 0 0 8.5 57.6 543.431 Tm
+(If you answered \223Yes,\224 indicate the date and nature of the change.\  )Tj
+/C0_0 1 Tf
+6.5 0 0 6.5 314.696 544.931 Tm
+<0061>Tj
+EMC 
+/Content <</MCID 27 >>BDC 
+/T1_1 1 Tf
+8.5 0 0 8.5 39.974 518.43 Tm
+(G )Tj
+EMC 
+/Content <</MCID 28 >>BDC 
+/T1_0 1 Tf
+2.074 0 Td
+(List all dates you entered and left the United States during 2017. See i\nstructions.)Tj
+EMC 
+/Content <</MCID 29 >>BDC 
+/T1_1 1 Tf
+0 -1.33 TD
+(Note: )Tj
+/T1_0 1 Tf
+(If you are a resident of Canada or Mexico AND commute to work in the Uni\ted States at frequent intervals,)Tj
+/T1_1 1 Tf
+50.285 0 Td
+( )Tj
+-50.285 -1.294 Td
+(check the box for Canada or Mexico )Tj
+/T1_0 1 Tf
+(and skip to item H )Tj
+27.106 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i []0 d 
+396 493.998 8 8 re
+S
+BT
+/Caption <</MCID 30 >>BDC 
+1 i 
+/T1_0 1 Tf
+8.5 0 0 8.5 409.81 494.429 Tm
+(Canada)Tj
+EMC 
+ET
+0 i 
+453.6 493.998 8 8 re
+S
+BT
+/Caption <</MCID 31 >>BDC 
+1 i 
+/T1_0 1 Tf
+8.5 0 0 8.5 466.8 494.429 Tm
+(Mexico)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 57.35 479.999 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 57.35 455.998 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 57.6 480.249 cm
+0 0 m
+0 -24.501 l
+S
+Q
+BT
+/Content <</MCID 32 >>BDC 
+1 i 
+/T1_0 1 Tf
+8 0 0 8 63.073 471.287 Tm
+(Date entered United States  )Tj
+3.787 -1.125 Td
+(mm/dd/yy)Tj
+EMC 
+ET
+0 i 
+165.6 455.998 108 24.001 re
+S
+BT
+/Content <</MCID 33 >>BDC 
+1 i 
+/T1_0 1 Tf
+8 0 0 8 168.553 471.287 Tm
+(Date departed United States  )Tj
+4.102 -1.125 Td
+(mm/dd/yy)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 57.35 443.999 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 57.6 456.248 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 165.35 443.999 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 273.6 456.248 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 165.6 456.248 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 57.35 432 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 57.6 444.249 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 165.35 432 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 273.6 444.249 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 165.6 444.249 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 57.35 420.001 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 57.6 432.25 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 165.35 420.001 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 273.6 432.25 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 165.6 432.25 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 57.35 408.002 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 57.6 420.251 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 165.35 408.002 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 273.6 420.251 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 165.6 420.251 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 338.15 479.999 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 338.15 455.998 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 338.4 480.249 cm
+0 0 m
+0 -24.501 l
+S
+Q
+BT
+/Content <</MCID 34 >>BDC 
+1 i 
+/T1_0 1 Tf
+8 0 0 8 343.873 471.287 Tm
+(Date entered United States  )Tj
+3.787 -1.125 Td
+(mm/dd/yy)Tj
+EMC 
+ET
+0 i 
+446.4 455.998 108 24.001 re
+S
+BT
+/Content <</MCID 35 >>BDC 
+1 i 
+/T1_0 1 Tf
+8 0 0 8 449.353 471.287 Tm
+(Date departed United States  )Tj
+4.102 -1.125 Td
+(mm/dd/yy)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 338.15 443.999 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 338.4 456.248 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 446.15 443.999 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 554.4 456.248 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 446.4 456.248 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 338.15 432 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 338.4 444.249 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 446.15 432 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 554.4 444.249 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 446.4 444.249 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 338.15 420.001 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 338.4 432.25 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 446.15 420.001 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 554.4 432.25 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 446.4 432.25 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 338.15 408.002 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 338.4 420.251 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 446.15 408.002 cm
+0 0 m
+108.5 0 l
+S
+Q
+q 1 0 0 1 554.4 420.251 cm
+0 0 m
+0 -12.499 l
+S
+Q
+q 1 0 0 1 446.4 420.251 cm
+0 0 m
+0 -12.499 l
+S
+Q
+BT
+/Content <</MCID 36 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 40.051 386.429 Tm
+(H )Tj
+EMC 
+/Content <</MCID 37 >>BDC 
+/T1_0 1 Tf
+2.065 0 Td
+(Give number of days \(including vacation, nonworkdays, and partial days\)\ you were present in the United States during:)Tj
+EMC 
+ET
+0 i [2 1]0 d 
+q 1 0 0 1 79.347 372.002 cm
+0 0 m
+100.903 0 l
+S
+Q
+BT
+/Caption <</MCID 38 >>BDC 
+1 i 
+/T1_0 1 Tf
+8.5 0 0 8.5 57.6 375.433 Tm
+( 2015)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 205.557 372.002 cm
+0 0 m
+104.293 0 l
+S
+Q
+BT
+/Caption <</MCID 39 >>BDC 
+1 i 
+/T1_0 1 Tf
+8.5 0 0 8.5 182 375.433 Tm
+(, 2016)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 352.342 372.002 cm
+0 0 m
+101.508 0 l
+S
+Q
+BT
+/Caption <</MCID 40 >>BDC 
+1 i 
+/T1_0 1 Tf
+8.5 0 0 8.5 309.6 375.433 Tm
+( , and 2017)Tj
+EMC 
+/Content <</MCID 41 >>BDC 
+17.087 -0.118 Td
+( .)Tj
+EMC 
+/Content <</MCID 42 >>BDC 
+/T1_1 1 Tf
+-48.575 -2.824 Td
+(I )Tj
+EMC 
+/Content <</MCID 43 >>BDC 
+/T1_0 1 Tf
+1.842 0 Td
+(Did you file a U.S. income tax return for any prior year? )Tj
+25.694 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i []0 d 
+504 349.998 8 8 re
+S
+BT
+/Caption <</MCID 44 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.095 350.429 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540 349.998 8 8 re
+S
+BT
+/Caption <</MCID 45 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.086 350.429 Tm
+(No)Tj
+EMC 
+ET
+0 i [2 1]0 d 
+q 1 0 0 1 314.759 335.999 cm
+0 0 m
+182.291 0 l
+S
+Q
+BT
+/Caption <</MCID 46 >>BDC 
+1 i 
+/T1_0 1 Tf
+8.5 0 0 8.5 57.6 339.43 Tm
+(If \223Yes,\224 give the latest year and form number you filed )Tj
+25.694 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+0.426 0 Td
+( )Tj
+/C0_0 1 Tf
+6.5 0 0 6.5 305.987 340.93 Tm
+<0061>Tj
+EMC 
+/Content <</MCID 47 >>BDC 
+/T1_1 1 Tf
+8.5 0 0 8.5 40.837 314.429 Tm
+(J)Tj
+EMC 
+/Content <</MCID 48 >>BDC 
+/T1_0 1 Tf
+1.972 0 Td
+(Are you filing a return for a trust? )Tj
+15.812 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i []0 d 
+504 313.998 8 8 re
+S
+BT
+/Caption <</MCID 49 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.095 314.429 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540 313.998 8 8 re
+S
+BT
+/Caption <</MCID 50 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.086 314.429 Tm
+(No)Tj
+EMC 
+/Content <</MCID 51 >>BDC 
+/T1_0 1 Tf
+-58.175 -1.33 Td
+(If )Tj
+0.93 0 Td
+(\223Yes,\224 )Tj
+3.19 0 Td
+(did )Tj
+1.783 0 Td
+(the )Tj
+1.783 0 Td
+(trust )Tj
+2.394 0 Td
+(have )Tj
+2.505 0 Td
+(a )Tj
+0.912 0 Td
+(U.S. )Tj
+2.301 0 Td
+(or )Tj
+1.282 0 Td
+(foreign )Tj
+3.467 0 Td
+(owner )Tj
+3.133 0 Td
+(under )Tj
+2.95 0 Td
+(the )Tj
+1.783 0 Td
+(grantor )Tj
+3.597 0 Td
+(trust )Tj
+2.394 0 Td
+(rules, )Tj
+2.801 0 Td
+(make )Tj
+2.821 0 Td
+(a )Tj
+0.912 0 Td
+(distribution )Tj
+5.376 0 Td
+(or )Tj
+1.282 0 Td
+(loan )Tj
+2.264 0 Td
+(to )Tj
+1.264 0 Td
+(a )Tj
+-51.134 -1.294 Td
+(U.S. person, or receive a contribution from a U.S. person? )Tj
+27.106 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i 
+504 289.997 8 8 re
+S
+BT
+/Caption <</MCID 52 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.095 290.428 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540 289.997 8 8 re
+S
+BT
+/Caption <</MCID 53 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.086 290.428 Tm
+(No)Tj
+EMC 
+/Content <</MCID 54 >>BDC 
+-60.23 -2.823 Td
+(K )Tj
+EMC 
+/Content <</MCID 55 >>BDC 
+/T1_0 1 Tf
+2.055 0 Td
+(Did you receive total compensation of $250,000 or more during the tax ye\ar? )Tj
+35.576 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i 
+504 265.999 8 8 re
+S
+BT
+/Caption <</MCID 56 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.095 266.43 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540 265.999 8 8 re
+S
+BT
+/Caption <</MCID 57 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.086 266.43 Tm
+(No)Tj
+EMC 
+/Content <</MCID 58 >>BDC 
+/T1_0 1 Tf
+-58.175 -1.412 Td
+(If \223Yes,\224 did you use an alternative method to determine the sourc\e of this compensation? )Tj
+41.224 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i 
+504 253.997 8 8 re
+S
+BT
+/Caption <</MCID 59 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.095 254.428 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540 253.997 8 8 re
+S
+BT
+/Caption <</MCID 60 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.086 254.428 Tm
+(No)Tj
+EMC 
+/Content <</MCID 61 >>BDC 
+-60.165 -2.741 Td
+(L )Tj
+EMC 
+/Content <</MCID 62 >>BDC 
+/T1_0 1 Tf
+1.991 0 Td
+(Income )Tj
+3.7 0 Td
+(Exempt )Tj
+3.811 0 Td
+(from )Tj
+2.44 0 Td
+(Tax\227If )Tj
+3.568 0 Td
+(you )Tj
+2.014 0 Td
+(are )Tj
+1.791 0 Td
+(claiming )Tj
+4.107 0 Td
+(exemption )Tj
+5.089 0 Td
+(from )Tj
+2.44 0 Td
+(income )Tj
+3.663 0 Td
+(tax )Tj
+1.754 0 Td
+(under )Tj
+2.959 0 Td
+(a )Tj
+0.921 0 Td
+(U.S. )Tj
+2.31 0 Td
+(income )Tj
+3.663 0 Td
+(tax )Tj
+1.754 0 Td
+(treaty )Tj
+2.921 0 Td
+(with )Tj
+2.235 0 Td
+(a )Tj
+-51.134 -1.294 Td
+(foreign country, complete \(1\) through \(3\) below. See Pub. 901 for mo\re information on tax treaties.)Tj
+EMC 
+/Content <</MCID 63 >>BDC 
+/T1_1 1 Tf
+0 -1.53 TD
+(1. )Tj
+/T1_0 1 Tf
+1.213 0 Td
+(Enter )Tj
+2.731 0 Td
+(the )Tj
+1.787 0 Td
+(name )Tj
+2.862 0 Td
+(of )Tj
+1.249 0 Td
+(the )Tj
+1.787 0 Td
+(country, )Tj
+4.028 0 Td
+(the )Tj
+1.787 0 Td
+(applicable )Tj
+4.972 0 Td
+(tax )Tj
+1.749 0 Td
+(treaty )Tj
+2.916 0 Td
+(article, )Tj
+3.36 0 Td
+(the )Tj
+1.787 0 Td
+(number )Tj
+3.807 0 Td
+(of )Tj
+1.249 0 Td
+(months )Tj
+3.733 0 Td
+(in )Tj
+1.157 0 Td
+(prior )Tj
+2.434 0 Td
+(years )Tj
+2.786 0 Td
+(you )Tj
+2.009 0 Td
+(claimed )Tj
+3.88 0 Td
+(the )Tj
+1.787 0 Td
+(treaty)Tj
+/T1_1 1 Tf
+( )Tj
+/T1_0 1 Tf
+-53.769 -1.294 Td
+(benefit, and the amount of exempt income in the columns below. Attach Fo\rm 8833 if required. See instructions.)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 35.75 191.999 cm
+0 0 m
+230.9 0 l
+S
+Q
+q 1 0 0 1 35.75 167.998 cm
+0 0 m
+230.9 0 l
+S
+Q
+BT
+/Content <</MCID 64 >>BDC 
+1 i 
+/T1_1 1 Tf
+9 0 0 9 128.7 177.996 Tm
+(\(a\) )Tj
+/T1_0 1 Tf
+(Country)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 266.15 191.999 cm
+0 0 m
+94.1 0 l
+S
+Q
+q 1 0 0 1 266.15 167.998 cm
+0 0 m
+94.1 0 l
+S
+Q
+q 1 0 0 1 266.4 192.249 cm
+0 0 m
+0 -24.501 l
+S
+Q
+BT
+/Content <</MCID 65 >>BDC 
+1 i 
+/T1_1 1 Tf
+9 0 0 9 286.538 181.573 Tm
+(\(b\) )Tj
+/T1_0 1 Tf
+(Tax treaty)Tj
+/T1_1 1 Tf
+(        )Tj
+/T1_0 1 Tf
+1.611 -1 Td
+(article)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 359.75 191.999 cm
+0 0 m
+94.1 0 l
+S
+Q
+q 1 0 0 1 359.75 167.998 cm
+0 0 m
+94.1 0 l
+S
+Q
+q 1 0 0 1 360 192.249 cm
+0 0 m
+0 -24.501 l
+S
+Q
+BT
+/Content <</MCID 66 >>BDC 
+1 i 
+/T1_1 1 Tf
+8 0 0 8 367.529 182.287 Tm
+(\(c\) )Tj
+/T1_0 1 Tf
+(Number of months)Tj
+/T1_1 1 Tf
+( )Tj
+/T1_0 1 Tf
+-0.702 -1.125 Td
+(claimed in prior tax years)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 453.35 191.999 cm
+0 0 m
+122.9 0 l
+S
+Q
+q 1 0 0 1 453.35 167.998 cm
+0 0 m
+122.9 0 l
+S
+Q
+q 1 0 0 1 453.6 192.249 cm
+0 0 m
+0 -24.501 l
+S
+Q
+BT
+/Content <</MCID 67 >>BDC 
+1 i 
+/T1_1 1 Tf
+8 0 0 8 475.753 182.287 Tm
+(\(d\) )Tj
+/T1_0 1 Tf
+(Amount of exempt)Tj
+/T1_1 1 Tf
+(         )Tj
+/T1_0 1 Tf
+-0.925 -1.125 Td
+(income in current tax year)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 35.75 143.997 cm
+0 0 m
+230.9 0 l
+S
+Q
+q 1 0 0 1 266.15 143.997 cm
+0 0 m
+94.1 0 l
+S
+Q
+q 1 0 0 1 266.4 168.248 cm
+0 0 m
+0 -24.501 l
+S
+Q
+q 1 0 0 1 359.75 143.997 cm
+0 0 m
+94.1 0 l
+S
+Q
+q 1 0 0 1 360 168.248 cm
+0 0 m
+0 -24.501 l
+S
+Q
+q 1 0 0 1 453.35 143.997 cm
+0 0 m
+122.9 0 l
+S
+Q
+q 1 0 0 1 453.6 168.248 cm
+0 0 m
+0 -24.501 l
+S
+Q
+q 1 0 0 1 35.75 119.996 cm
+0 0 m
+230.9 0 l
+S
+Q
+q 1 0 0 1 266.15 119.996 cm
+0 0 m
+94.1 0 l
+S
+Q
+q 1 0 0 1 266.4 144.247 cm
+0 0 m
+0 -24.501 l
+S
+Q
+q 1 0 0 1 359.75 119.996 cm
+0 0 m
+94.1 0 l
+S
+Q
+q 1 0 0 1 360 144.247 cm
+0 0 m
+0 -24.501 l
+S
+Q
+q 1 0 0 1 453.35 119.996 cm
+0 0 m
+122.9 0 l
+S
+Q
+q 1 0 0 1 453.6 144.247 cm
+0 0 m
+0 -24.501 l
+S
+Q
+q 1 0 0 1 35.75 95.995 cm
+0 0 m
+230.9 0 l
+S
+Q
+q 1 0 0 1 266.15 95.995 cm
+0 0 m
+94.1 0 l
+S
+Q
+q 1 0 0 1 266.4 120.246 cm
+0 0 m
+0 -24.501 l
+S
+Q
+q 1 0 0 1 359.75 95.995 cm
+0 0 m
+94.1 0 l
+S
+Q
+q 1 0 0 1 360 120.246 cm
+0 0 m
+0 -24.501 l
+S
+Q
+q 1 0 0 1 453.35 95.995 cm
+0 0 m
+122.9 0 l
+S
+Q
+q 1 0 0 1 453.6 120.246 cm
+0 0 m
+0 -24.501 l
+S
+Q
+BT
+/Content <</MCID 68 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 38.245 74.431 Tm
+(\(e\) )Tj
+EMC 
+/Content <</MCID 69 >>BDC 
+2.277 0 Td
+(Total.)Tj
+/T1_0 1 Tf
+( Enter this amount on Form 1040NR, line 22. Do not enter it on line 8 or\ line 12 )Tj
+38.4 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i 
+q 1 0 0 1 453.35 72 cm
+0 0 m
+122.9 0 l
+S
+Q
+q 1 0 0 1 453.6 96.251 cm
+0 0 m
+0 -24.501 l
+S
+Q
+q 1 0 0 1 453.6 71.997 cm
+0 0 m
+-417.6 0 l
+S
+Q
+BT
+/Content <</MCID 70 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 57.6 62.432 Tm
+(2.  )Tj
+/T1_0 1 Tf
+(Were you subject to tax in a foreign country on any of the income shown \in 1\(d\) above? )Tj
+41.224 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i 
+504 62.001 8 8 re
+S
+BT
+/Caption <</MCID 71 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.095 62.432 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540 62.001 8 8 re
+S
+BT
+/Caption <</MCID 72 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.086 62.432 Tm
+(No)Tj
+EMC 
+/Content <</MCID 73 >>BDC 
+-58.174 -1.412 Td
+(3.  )Tj
+/T1_0 1 Tf
+(Are you claiming treaty benefits pursuant to a Competent Authority deter\mination? )Tj
+39.811 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+1.412 0 Td
+(.)Tj
+EMC 
+ET
+0 i 
+504.009 49.999 8 8 re
+S
+BT
+/Caption <</MCID 74 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 517.104 50.43 Tm
+(Yes)Tj
+EMC 
+ET
+0 i 
+540.009 49.999 8 8 re
+S
+BT
+/Caption <</MCID 75 >>BDC 
+1 i 
+/T1_1 1 Tf
+8.5 0 0 8.5 552.095 50.43 Tm
+(No)Tj
+EMC 
+/Content <</MCID 76 >>BDC 
+/T1_0 1 Tf
+-56.764 -1.412 Td
+(If \223Yes,\224 attach a copy of the Competent Authority determination l\etter to your return.)Tj
+EMC 
+ET
+0 i 1 w 
+q 1 0 0 1 35.75 36 cm
+0 0 m
+540.5 0 l
+S
+Q
+BT
+/Content <</MCID 77 >>BDC 
+1 i 
+/T1_0 1 Tf
+7 0 0 7 499.707 26.861 Tm
+(Form )Tj
+/T1_1 1 Tf
+10 0 0 10 517.99 26.861 Tm
+(1040NR)Tj
+/T1_0 1 Tf
+7 0 0 7 554.86 26.861 Tm
+( \(2017\))Tj
+EMC 
+ET

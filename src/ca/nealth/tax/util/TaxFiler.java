@@ -1,19 +1,32 @@
 package ca.nealth.tax.util;
+import java.io.FileInputStream;
 import java.util.ArrayList;
-import ca.nealth.tax.datasource.DataSource;
-import ca.nealth.tax.datasource.DataSourceFactory;
-import ca.nealth.tax.datasource.TaxInfo;
+import java.util.Properties;
+
+import ca.nealth.tax.datasource.*;
+import ca.nealth.tax.form.*;
 
 @SuppressWarnings("unused")
 public class TaxFiler {
 	
-	private String dataSource;
+	private static String dataSource;
+	private static int taxPayers;
 	
 	private static final TaxFiler instance = new TaxFiler();
 	
 	private TaxFiler() {}
 	
-	public static TaxFiler getInstance() {
+	public static TaxFiler getInstance() throws Exception {
+		Properties prop = new Properties();
+		FileInputStream in = new FileInputStream(System.getProperty("user.dir") + "\\java.properties");
+		
+		prop.load(in);
+		
+		if(prop.getProperty("datasource").equalsIgnoreCase("Excel")) {
+			dataSource = "ca.nealth.tax.datasource.ExcelDataSource";
+		}
+		
+		taxPayers = Integer.parseInt(prop.getProperty("taxpayers"));
 		
 		return instance;
 		
@@ -21,8 +34,9 @@ public class TaxFiler {
 	
 	///TODO: Implement Java Properties
 	
-	public static void file(String dataSource) {
+	public void file(String dataSource, int taxPayers) throws Exception {
 		DataSource rawData = null;
+		TenFortyNR form = new TenFortyNR();
 		ArrayList<TaxInfo> tis = new ArrayList<TaxInfo>();
 		
 		try {
@@ -31,9 +45,25 @@ public class TaxFiler {
 			e.printStackTrace();
 		}
 		
-		for(int taxPayer = 0; taxPayer < 5/*CHANGE THIS*/; taxPayer++)
+		for(int taxPayer = 0; taxPayer < taxPayers; taxPayer++)
 			tis.add(rawData.read(taxPayer));
+		
+		for(TaxInfo ti:tis) {
+			form.fill(ti);
+		}
 		 
+	}
+	
+	public static void main(String[] args) {
+		TaxFiler tf = null;
+		TenFortyNR form = null;
+		try {
+			tf = TaxFiler.getInstance();
+			tf.file(dataSource, taxPayers);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
 	}
 	
 	

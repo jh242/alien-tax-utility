@@ -26,7 +26,9 @@ public class ExcelDataSource extends DataSource {
 			return target.getNumericCellValue();
 		} else if (target.getCellType() == Cell.CELL_TYPE_FORMULA) {
 			return eval.evaluateFormulaCell(target);
-		} else {
+		} else if (target.getCellType() == Cell.CELL_TYPE_BLANK){
+			return -1;
+		}else {
 			throw new RuntimeException("Excel format error!");
 		}
 	}
@@ -37,7 +39,9 @@ public class ExcelDataSource extends DataSource {
 
 		if (target.getCellType() == Cell.CELL_TYPE_STRING) {
 			return target.getStringCellValue();
-		} else {
+		} else if (target.getCellType() == Cell.CELL_TYPE_BLANK){
+			return null;
+		}else {
 			throw new RuntimeException("Excel format error!");
 		}
 	}
