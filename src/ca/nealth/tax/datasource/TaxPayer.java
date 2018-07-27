@@ -38,7 +38,9 @@ public class TaxPayer {
 	}
 	
 	public String getFirstName() {
-		return firstName + ", " + initial;
+		if(initial != null)
+			return firstName + ", " + initial;
+		else return firstName;
 	}
 	
 	public void setFirstName(String firstName) {
@@ -117,16 +119,14 @@ public class TaxPayer {
 		this.spouseLastName = spouseLastName;
 	}
 
-	public String getSpouseInitial() {
-		return spouseInitial;
-	}
-
 	public void setSpouseInitial(String spouseInitial) {
 		this.spouseInitial = spouseInitial;
 	}
 
 	public String getSpouseFirstName() {
-		return spouseFirstName;
+		if(spouseInitial != null)
+			return spouseFirstName + ", " + spouseInitial;
+		else return spouseFirstName;
 	}
 
 	public void setSpouseFirstName(String spouseFirstName) {

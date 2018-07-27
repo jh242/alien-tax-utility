@@ -3,6 +3,7 @@ package ca.nealth.tax.datasource;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.*;
 import java.io.*;
+import java.math.BigDecimal;
 import java.util.*;
 
 public class ExcelDataSource extends DataSource {
@@ -63,7 +64,7 @@ public class ExcelDataSource extends DataSource {
 		tp.setLastName(getStringCellValue(personalInfo, 1, 1));
 		tp.setInitial(getStringCellValue(personalInfo, 2, 1));
 		tp.setFirstName(getStringCellValue(personalInfo, 3, 1));
-		tp.setIdNumber(getStringCellValue(personalInfo, 4, 1));
+		tp.setIdNumber(new BigDecimal(getNumberCellValue(personalInfo, 4, 1)).toPlainString());
 		tp.setAddress(getStringCellValue(personalInfo, 5, 1));
 		tp.setCity(getStringCellValue(personalInfo, 6, 1));
 		tp.setCountry(getStringCellValue(personalInfo, 7, 1));
@@ -76,7 +77,7 @@ public class ExcelDataSource extends DataSource {
 			tp.setSpouseLastName(getStringCellValue(personalInfo, 13, 1));
 			tp.setSpouseInitial(getStringCellValue(personalInfo, 14, 1));
 			tp.setSpouseFirstName(getStringCellValue(personalInfo, 15, 1));
-			tp.setSpouseIdNumber(getStringCellValue(personalInfo, 16, 1));
+			tp.setSpouseIdNumber(new BigDecimal(getNumberCellValue(personalInfo, 16, 1)).toPlainString());
 		}
 		
 		for(int rp = 0; rp < 6; rp++) {

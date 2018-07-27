@@ -1,6 +1,5 @@
 package ca.nealth.tax.form;
 
-import java.io.IOException;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 
@@ -10,6 +9,6 @@ public abstract class FormHandler {
 	
 	public abstract boolean validate();
 	
-	public abstract void fill(TaxInfo ti) throws IOException;
+	public abstract void fill(TaxInfo ti) throws Exception;
 
 }
