@@ -38,7 +38,7 @@ public class TenFortyNR extends FormHandler {
 
 	}
 
-	public boolean validate() {//Make sure the current form is up-to-date.
+	public boolean validate() {// Make sure the current form is up-to-date.
 		PDDocumentInformation info = pdf.getDocumentInformation();
 		Calendar creationDate = info.getCreationDate();
 
@@ -59,7 +59,7 @@ public class TenFortyNR extends FormHandler {
 		Set<String> keys = fieldIds.stringPropertyNames();
 
 		for (String key : keys) {
-			if (!fieldIds.getProperty(key).startsWith("CheckBox")) {//Check current field is not checkbox
+			if (!fieldIds.getProperty(key).startsWith("CheckBox")) {// Check current field is not checkbox
 				module = fieldIds.getProperty(key).split("\\.");
 				if (module[0].equals("System")) {
 					if (module[1].equals("firstMonth"))
@@ -68,20 +68,19 @@ public class TenFortyNR extends FormHandler {
 						form.getField(key).setValue("December");
 					else if (module[1].equals("currentYear"))
 						form.getField(key).setValue(yr);
-				}else if (module[0].equals("TaxPayer")) {
+				} else if (module[0].equals("TaxPayer")) {
 					fillTarget = ti.getTaxPayer().getClass().getMethod(module[1]);
 					form.getField(key).setValue((String) fillTarget.invoke(ti.getTaxPayer()));
-				}else if (module[0].equals("TestValue")) {
+				} else if (module[0].equals("TestValue")) {
 					form.getField(key).setValue(module[1]);
 				}
-			} else {//Handle checkboxes separately
+			} else {// Handle checkboxes separately
 				String trimmedName = fieldIds.getProperty(key).split("\\.")[1];
+				temp = (PDCheckBox) form.getField(key);
 				if (trimmedName.startsWith("filing")
 						&& Character.getNumericValue(trimmedName.charAt(6)) == ti.getTaxPayer().getFilingStatus()) {
-					temp = (PDCheckBox) form.getField(key);
 					temp.check();
 				} else if (trimmedName.equals("individual")) {
-					temp = (PDCheckBox) form.getField(key);
 					temp.check();
 				}
 			}
