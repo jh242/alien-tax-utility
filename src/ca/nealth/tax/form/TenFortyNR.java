@@ -52,6 +52,7 @@ public class TenFortyNR extends FormHandler {
 		String year = "" + Calendar.getInstance().get(Calendar.YEAR);
 		String yr = year.substring(2);
 		String[] module;
+		String[] dependents;
 		Set<String> keys = fieldIds.stringPropertyNames();
 
 		for (String key : keys) {
@@ -65,8 +66,12 @@ public class TenFortyNR extends FormHandler {
 					else if (module[1].equals("currentYear"))
 						form.getField(key).setValue(yr);
 				} else if (module[0].equals("TaxPayer")) {
-					fillTarget = ti.getTaxPayer().getClass().getMethod(module[1]);
-					form.getField(key).setValue((String) fillTarget.invoke(ti.getTaxPayer()));
+					if (module[1].equals("getDependents")) {
+						form.getField(key).setValue(String.join(", ", ti.getTaxPayer().getDependents()));
+					}else {
+						fillTarget = ti.getTaxPayer().getClass().getMethod(module[1]);
+						form.getField(key).setValue((String) fillTarget.invoke(ti.getTaxPayer()));
+					}
 				} else if (module[0].equals("RentalProperty") || module[0].equals("SoldProperty")) {
 					fillTarget = ti.getClass().getMethod(module[1]);
 					form.getField(key).setValue((String) fillTarget.invoke(ti));

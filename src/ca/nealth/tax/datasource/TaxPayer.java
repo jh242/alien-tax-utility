@@ -12,6 +12,7 @@ public class TaxPayer {
 	public String postalCode;
 	public int filingStatus;
 	public String[] dependents;
+	public String[] dependentRelationships;
 	public String spouseLastName;
 	public String spouseInitial;
 	public String spouseFirstName;
@@ -143,6 +144,46 @@ public class TaxPayer {
 
 	public String getInitial() {
 		return initial;
+	}
+	
+	public String[] getDependentRelationships() {
+		return dependentRelationships;
+	}
+
+	public void setDependentRelationships(String[] dependentRelationships) {
+		this.dependentRelationships = dependentRelationships;
+	}
+	
+	public String getDependent1() {
+		return dependents[0];
+	}
+	
+	public String getDependent1Relationship() {
+		return dependentRelationships[0];
+	}
+	
+	public String getDependent2() {
+		return dependents[1];
+	}
+	
+	public String getDependent2Relationship() {
+		return dependentRelationships[1];
+	}
+	
+	public String getDependent3() {
+		return dependents[2];
+	}
+	
+	public String getDependent3Relationship() {
+		return dependentRelationships[2];
+	}
+	
+	public String getDependent4() {
+		return dependents[3];
+	}
+	
+	public String getDependent4Relationship() {
+		return dependentRelationships[3];
 	}
 
 }

@@ -38,10 +38,12 @@ public class ExcelDataSource extends DataSource {
 	String getStringCellValue(Sheet sheet, int rowNum, int cellNum) {
 		target = sheet.getRow(rowNum).getCell(cellNum);
 
-		if (target.getCellType() == Cell.CELL_TYPE_STRING) {
+		if (target == null){
+			return " ";
+		}else if (target.getCellType() == Cell.CELL_TYPE_STRING) {
 			return target.getStringCellValue();
 		} else if (target.getCellType() == Cell.CELL_TYPE_BLANK){
-			return null;
+			return " ";
 		}else {
 			throw new RuntimeException("Excel format error!");
 		}
@@ -58,6 +60,7 @@ public class ExcelDataSource extends DataSource {
 		int rentalProperty = 0;
 		int soldProperty = 0;
 		String[] dependents = new String[4];
+		String[] dependentRelationships = new String[4];
 		
 		TaxPayer tp = new TaxPayer();
 		TaxInfo ti = new TaxInfo();
@@ -75,20 +78,22 @@ public class ExcelDataSource extends DataSource {
 		tp.setFilingStatus((int) getNumberCellValue(personalInfo, 10, 1));
 		
 		for(int dependent = 0; dependent < 4; dependent++) {
-			dependents[dependent] = getStringCellValue(personalInfo, 11+dependent, 1) + getStringCellValue(personalInfo, 11+dependent, 3);
+			dependents[dependent] = getStringCellValue(personalInfo, 11+dependent, 1);
+			dependentRelationships[dependent] = getStringCellValue(personalInfo, 11+dependent, 3);
 		}
 		
 		tp.setDependents(dependents);
+		tp.setDependentRelationships(dependentRelationships);
 
 		if (tp.getFilingStatus() == 3 || tp.getFilingStatus() == 4 || tp.getFilingStatus() == 5) {
-			tp.setSpouseLastName(getStringCellValue(personalInfo, 15, 1));
-			tp.setSpouseInitial(getStringCellValue(personalInfo, 16, 1));
-			tp.setSpouseFirstName(getStringCellValue(personalInfo, 17, 1));
-			tp.setSpouseIdNumber(new BigDecimal(getNumberCellValue(personalInfo, 18, 1)).toPlainString());
+			tp.setSpouseLastName(getStringCellValue(personalInfo, 16, 1));
+			tp.setSpouseInitial(getStringCellValue(personalInfo, 17, 1));
+			tp.setSpouseFirstName(getStringCellValue(personalInfo, 18, 1));
+			tp.setSpouseIdNumber(new BigDecimal(getNumberCellValue(personalInfo, 19, 1)).toPlainString());
 		}
 		
 		for(int rp = 0; rp < 6; rp++) {
-			if(personalInfo.getRow(18+rp).getCell(1).getCellType() == Cell.CELL_TYPE_BLANK) {
+			if(personalInfo.getRow(21+rp).getCell(1).getCellType() == Cell.CELL_TYPE_BLANK) {
 				break;
 			}else {
 				ownershipOfRps.add(getNumberCellValue(personalInfo, 21+rp, 1));
@@ -96,7 +101,7 @@ public class ExcelDataSource extends DataSource {
 		}
 		
 		for(int sp = 0; sp < 6; sp++) {
-			if(personalInfo.getRow(25+sp).getCell(1).getCellType() == Cell.CELL_TYPE_BLANK) {
+			if(personalInfo.getRow(28+sp).getCell(1).getCellType() == Cell.CELL_TYPE_BLANK) {
 				break;
 			}else {
 				ownershipOfSps.add(getNumberCellValue(personalInfo, 28+sp, 1));
