@@ -2,7 +2,6 @@ package ca.nealth.tax.form;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.net.URL;
 import java.util.Calendar;
 import java.util.Properties;
@@ -19,21 +18,18 @@ import ca.nealth.tax.datasource.TaxInfo;
 
 public class TenFortyNR extends FormHandler {
 
-	PDDocument pdf;
 	File input;
 	Properties fieldIds;
 
 	// StringBuilder sb;
 
 	public TenFortyNR() throws Exception {
-		URL tenFortySrc = new URL("https://www.irs.gov/pub/irs-pdf/f1040nr.pdf");
+		URL formSrc = new URL("https://www.irs.gov/pub/irs-pdf/f1040nr.pdf");
 		input = new File(System.getProperty("user.dir") + "\\1040nr.pdf");
-		FileUtils.copyURLToFile(tenFortySrc, input);
-		pdf = PDDocument.load(input);
-
+		FileUtils.copyURLToFile(formSrc, input);
+		this.pdf = PDDocument.load(input);
 		fieldIds = new Properties();
-		FileInputStream in = new FileInputStream(System.getProperty("user.dir") + "\\fieldid.properties");
-
+		FileInputStream in = new FileInputStream(System.getProperty("user.dir") + "\\1040id.properties");
 		fieldIds.load(in);
 
 	}
@@ -48,7 +44,7 @@ public class TenFortyNR extends FormHandler {
 			return false;
 	}
 
-	public void fill(TaxInfo ti) throws Exception {/// TODO: change this to return the PDF
+	public PDDocument fill(TaxInfo ti) throws Exception {
 		PDDocumentCatalog pdfCat = pdf.getDocumentCatalog();
 		PDAcroForm form = pdfCat.getAcroForm();
 		PDCheckBox temp;
@@ -71,7 +67,10 @@ public class TenFortyNR extends FormHandler {
 				} else if (module[0].equals("TaxPayer")) {
 					fillTarget = ti.getTaxPayer().getClass().getMethod(module[1]);
 					form.getField(key).setValue((String) fillTarget.invoke(ti.getTaxPayer()));
-				} else if (module[0].equals("TestValue")) {
+				} else if (module[0].equals("RentalProperty") || module[0].equals("SoldProperty")) {
+					fillTarget = ti.getClass().getMethod(module[1]);
+					form.getField(key).setValue((String) fillTarget.invoke(ti));
+				}  else if (module[0].equals("TestValue")) {// Fill unknown fields with an identifiable test value.
 					form.getField(key).setValue(module[1]);
 				}
 			} else {// Handle checkboxes separately
@@ -86,8 +85,7 @@ public class TenFortyNR extends FormHandler {
 			}
 		}
 
-		pdf.save(input);
-		pdf.close();
+		return pdf;
 
 	}
 

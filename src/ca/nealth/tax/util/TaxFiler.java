@@ -1,15 +1,21 @@
 package ca.nealth.tax.util;
 import java.io.FileInputStream;
+import java.util.AbstractSet;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Properties;
-
+import org.apache.pdfbox.pdmodel.PDDocument;
 import ca.nealth.tax.datasource.*;
-import ca.nealth.tax.form.*;
+import ca.nealth.tax.datatarget.DataTarget;
+import ca.nealth.tax.datatarget.DataTargetFactory;
+import ca.nealth.tax.form.FormHandler;
+import ca.nealth.tax.form.TenFortyNR;
 
 @SuppressWarnings("unused")
 public class TaxFiler {
 	
 	private static String dataSource;
+	private static String dataTarget;
 	private static int taxPayers;
 	
 	private static final TaxFiler instance = new TaxFiler();
@@ -26,21 +32,29 @@ public class TaxFiler {
 			dataSource = "ca.nealth.tax.datasource.ExcelDataSource";
 		}
 		
+		if(prop.getProperty("datatarget").equalsIgnoreCase("LocalDisk")){
+			dataTarget = "ca.nealth.tax.datatarget.LocalDisk";
+		}
+		
 		taxPayers = Integer.parseInt(prop.getProperty("taxpayers"));
 		
 		return instance;
 		
 	}
 	
-	///TODO: Implement Java Properties
 	
-	public void file(String dataSource, int taxPayers) throws Exception {
+	public void file(String dataSource, String dataTarget, int taxPayers) throws Exception {
 		DataSource rawData = null;
-		TenFortyNR form = new TenFortyNR();
+		DataTarget saveTarget = null;
+		FormHandler tenForty = new TenFortyNR();
 		ArrayList<TaxInfo> tis = new ArrayList<TaxInfo>();
+		LinkedList<RentalProperty> rps;
+		LinkedList<SoldProperty> sps;
+		LinkedList<PDDocument> completedForms = new LinkedList<PDDocument>();
 		
 		try {
 			rawData = DataSourceFactory.getDataSource(dataSource);
+			saveTarget = DataTargetFactory.getDataTarget(dataTarget);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -49,9 +63,19 @@ public class TaxFiler {
 			tis.add(rawData.read(taxPayer));
 		
 		for(TaxInfo ti:tis) {
-			form.fill(ti);
+			completedForms.add(tenForty.fileForm(ti));
+			rps = ti.getRentalProperties();
+			sps = ti.getSoldProperties();
+			for(RentalProperty rp:rps) {
+				//Schedule E block
+			}
+			for(SoldProperty sp:sps) {
+				//Schedule D block
+			}
 		}
-		 
+		for (PDDocument completedForm : completedForms) {
+			saveTarget.write(completedForm);
+		}
 	}
 	
 	public static void main(String[] args) {
@@ -59,7 +83,7 @@ public class TaxFiler {
 		TenFortyNR form = null;
 		try {
 			tf = TaxFiler.getInstance();
-			tf.file(dataSource, taxPayers);
+			tf.file(dataSource, dataTarget, taxPayers);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}	

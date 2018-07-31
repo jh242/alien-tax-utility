@@ -10,28 +10,24 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 
 import ca.nealth.tax.datasource.TaxInfo;
 
-public class ScheduleE extends FormHandler {
-
+public class FourSevenNineSeven extends FormHandler {
+	
 	File input;
 	Properties fieldIds;
-
-	public ScheduleE() throws Exception {
-		URL formSrc = new URL("https://www.irs.gov/pub/irs-pdf/f1040se.pdf");
-		input = new File(System.getProperty("user.dir") + "\\scheduleE.pdf");
+	
+	public FourSevenNineSeven() throws Exception {
+		URL formSrc = new URL("https://www.irs.gov/pub/irs-pdf/f4797.pdf");
+		input = new File(System.getProperty("user.dir") + "\\4797.pdf");
 		FileUtils.copyURLToFile(formSrc, input);
 		this.pdf = PDDocument.load(input);
 		fieldIds = new Properties();
-		FileInputStream in = new FileInputStream(System.getProperty("user.dir") + "\\schedE.properties");
+		FileInputStream in = new FileInputStream(System.getProperty("user.dir") + "\\4797.properties");
 		fieldIds.load(in);
-
 	}
 
-	public boolean validate() {
+	@Override
+	public PDDocument fill(TaxInfo ti) throws Exception {
 		// TODO Auto-generated method stub
-		return false;
-	}
-
-	public PDDocument fill(TaxInfo ti) {
 		return null;
 	}
 

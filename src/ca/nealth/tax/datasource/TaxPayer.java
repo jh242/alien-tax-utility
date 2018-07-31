@@ -11,7 +11,7 @@ public class TaxPayer {
 	public String state;
 	public String postalCode;
 	public int filingStatus;
-	public String childrensNames;
+	public String[] dependents;
 	public String spouseLastName;
 	public String spouseInitial;
 	public String spouseFirstName;
@@ -103,12 +103,12 @@ public class TaxPayer {
 		this.filingStatus = filingStatus;
 	}
 
-	public String getChildrensNames() {
-		return childrensNames;
+	public String[] getDependents() {
+		return dependents;
 	}
 
-	public void setChildrensNames(String childrensNames) {
-		this.childrensNames = childrensNames;
+	public void setDependents(String[] dependents) {
+		this.dependents = dependents;
 	}
 
 	public String getSpouseLastName() {

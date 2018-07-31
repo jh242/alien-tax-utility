@@ -1,7 +1,9 @@
 package ca.nealth.tax.form;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.net.URL;
+import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -10,17 +12,17 @@ import ca.nealth.tax.datasource.TaxInfo;
 
 public class ScheduleD extends FormHandler {
 
-	PDDocument pdf;
+	File input;
+	Properties fieldIds;
 
 	public ScheduleD() throws Exception {
-		pdf = null;
-
-		URL tenFortySrc = new URL("https://www.irs.gov/pub/irs-pdf/f1040sd.pdf");
-		File input = new File(System.getProperty("user.dir") + "\\scheduled.pdf");
-
-		FileUtils.copyURLToFile(tenFortySrc, input);
-
-		pdf = PDDocument.load(input);
+		URL formSrc = new URL("https://www.irs.gov/pub/irs-pdf/f1040sd.pdf");
+		input = new File(System.getProperty("user.dir") + "\\scheduleD.pdf");
+		FileUtils.copyURLToFile(formSrc, input);
+		this.pdf = PDDocument.load(input);
+		fieldIds = new Properties();
+		FileInputStream in = new FileInputStream(System.getProperty("user.dir") + "\\schedD.properties");
+		fieldIds.load(in);
 
 	}
 
@@ -29,7 +31,8 @@ public class ScheduleD extends FormHandler {
 		return false;
 	}
 
-	public void fill(TaxInfo ti) {
+	public PDDocument fill(TaxInfo ti) {
+		return null;
 	}
 
 }
