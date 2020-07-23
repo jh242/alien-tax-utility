@@ -2,7 +2,7 @@
 
 A utility that can generate 1040NR and related forms for American nonresident alien real estate investors, supporting rental income and capital income.
 
-This main objective of this project was to familiarize myself with **Object-Oriented Programming** techniques, common industry practices and design patterns.
+This main objective of this project was to familiarize myself with **Object-Oriented Programming** techniques, common industry practices and design patterns including Singleton and Factory patterns.
 
 ## Initial Requirements:
 
